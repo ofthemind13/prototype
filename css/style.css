@@ -244,8 +244,10 @@ button {
     font-size: 30px;
     color: white;
 }
+
 .strong {
- font-family: 'Righteous';
+    font-family: 'Righteous';
+    color: black;
 }
 
 .navbar-light .navbar-nav .nav-link {

@@ -231,6 +231,7 @@ button {
     background-image: url(../images/banner-bg.png);
     height: auto;
     background-size: 100%;
+    filter: hue-rotate(180deg);
 }
 
 .bg-light {
@@ -240,14 +241,15 @@ button {
 .logo a {
     width: 25%;
     float: left;
-    font-family: 'Righteous';
-    font-size: 30px;
+    font-family: 'Rajdhani';
+    font-size: 25px;
     color: white;
 }
 
-.strong {
-    font-family: 'Righteous';
+.logo a strong {
+    font-family: 'Rajdhani';
     color: black;
+    margin-right: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -308,7 +310,7 @@ button {
 }
 
 .nav-item.active .nav-link::before {
-    background-color: #ef5051;
+    background-color: #1CDD43;
 }
 
 .nav-item .nav-link::before {
@@ -593,7 +595,7 @@ button {
     float: left;
     font-size: 22px;
     color: #ffffff;
-    background-color: #d72a18;
+    background-color: #5BC5D6;
     padding: 10px 0px;
     text-align: center;
     font-weight: bold;
@@ -601,7 +603,8 @@ button {
 
 .online_bt a:hover {
     color: #ffffff;
-    background-color: #d72a18;
+    background-color: #5BC5D6;
+    filter: hue-rotate(180deg);
 }
 
 .online_bt1 {
@@ -622,7 +625,7 @@ button {
 
 .online_bt1 a:hover {
     color: #ffffff;
-    background-color: #d72a18;
+    background-color: #5BC5D6;
 }
 
 .read_bt1 {
@@ -644,7 +647,7 @@ button {
 
 .read_bt1 a:hover {
     color: #ffffff;
-    background-color: #d72a18;
+    background-color: #34A4C0;
 }
 
 .product_section {
@@ -661,7 +664,7 @@ button {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #d72a18;
+    color: #34A4C0;
     font-weight: bold;
 }
 
@@ -704,7 +707,7 @@ button {
     font-size: 24px;
     color: #f7f7f8;
     text-align: center;
-    background-color: #d72a18;
+    background-color: #34A4C0;
     padding: 3px 0;
     text-transform: uppercase;
 }
@@ -718,7 +721,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #d72a18;
+    color: #34A4C0;
     text-align: center;
     padding: 3px 0;
     font-weight: bold;
@@ -771,7 +774,7 @@ button {
 
 .see_more a:hover {
     color: #ffffff;
-    background-color: #d72a18;
+    background-color: #34A4C0;
 }
 
 .contact_section {
@@ -805,6 +808,7 @@ button {
     height: 448px;
     background-size: 100%;
     margin-top: 80px;
+    filter: hue-rotate(180deg);
 }
 
 .input_bg {
@@ -886,6 +890,7 @@ button {
 
 .quote_icon {
     float: right;
+    filter: hue-rotate(180deg);
 }
 
 .ipsum_text {
@@ -899,7 +904,7 @@ button {
 .subscribe_section {
     width: 100%;
     float: left;
-    background-color: #d72a18;
+    background-color: #34A4C0;
     height: auto;
     padding: 10px 0px;
 }
@@ -951,16 +956,30 @@ button {
 }
 
 .fooer_logo {
-    width: 100%;
+    bottom: 10em;
+    font-family: 'Rajdhani';
+    font-size: 40px;
+    color: white;
+    width: 50%;
     float: left;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+}
+
+.fooer_logo strong {
+    font-family: 'Rajdhani';
+    color: black;
 }
 
 .customer_text {
+    padding-top: 10em;
     width: 100%;
     float: left;
     font-size: 24px;
     color: #ffffff;
+}
+
+.customer_text h1 {
+    top: 40px;
 }
 
 .footer_lorem_text {
@@ -1020,5 +1039,5 @@ button {
 }
 
 .copyright_text a:hover {
-    color: #ef5051;
+    color: #5BC5D6;
 }
